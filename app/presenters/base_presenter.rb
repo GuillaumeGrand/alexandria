@@ -1,6 +1,9 @@
 # app/presenters/base_presenter.rb
 class BasePresenter
     # Define a class level instance variable
+    @relations = []
+    @sort_attributes = []
+    @filter_attributes = []
     @build_attributes = []
   
     # Open the door to class methods
