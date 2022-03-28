@@ -8,6 +8,7 @@ class QueryOrchestrator
         @request = request
         @response = response
         @actions = actions == :all ? ACTIONS : actions
+        byebug
     end
 
     def run
